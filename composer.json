@@ -1,0 +1,23 @@
+{
+    "name": "jayanka/patch-manager",
+    "description": "A magento extension to maintain data patches",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "require": {},
+    "authors": [
+        {
+            "email": "jayankaghosh@gmail.com",
+            "name": "Jayanka Ghosh"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Jayanka\\PatchManager\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

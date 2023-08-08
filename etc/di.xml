@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="patch_apply" xsi:type="object">Jayanka\PatchManager\Console\Command\PatchApply</item>
+                <item name="patch_delete" xsi:type="object">Jayanka\PatchManager\Console\Command\PatchDelete</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
